@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  
+     <!-- Author:Jasper Mishra -->
+	 
+     <!--16th December 2011-->
+	 
+	 <!--Filename:colorpicker.html--> 
+	 
+     <!---The following html file generates color swatches using various color value inputs from the user--> 	 
+     <!--It also lets user examine the application of their color combination by testing them in two snippets of distinct layout-->      
+  
+  
+     <head>
+     
+        <title>Killer color Inc.</title>
+	
+      	
+		 <!--prototyp.js file-->
+		 <script src="prototype.js" type="text/javascript"></script>
+	 
+          <!--scriptaculous.js linked absolutely from its source-->	 
+         <script src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js" type="text/javascript"></script>
+
+		 <!-- primary stylesheet (colorpicker.css) for this particular document-->
+         <link href="colorpicker.css" type="text/css" rel="stylesheet" /> 
+  
+         <!--primary js (colorpicker.js) file for this particular document--> 
+         <script src="colorpicker.js" type="text/javascript"></script>
+	 
+	     <!--color.js-->
+ 	     <script src="color.js" type="text/javascript"></script>
+		  
+		
+    </head>
+	 
+	 
+	 
+ 	  <body>
+	   
+	   <h1>Killer Color Inc.</h1>
+	   
+	   
+       	 <!---Block level element that holds all the textbox values-->	 
+		  
+		 <div id="colorPickerSheet" class="colorPickerSheet" > 
+		  
+		      <h3>Enter RGB values for p1</h3>
+		 
+		           				   
+				  <div>   
+	           	  
+		                <div class="labelOfPair">Red</div> 
+					
+	 	  			    <div><input type="text" name="red" id="red" /></div>
+				
+				  </div>
+				   	 
+				  <div>	  
+			    
+			             <div class="labelOfPair">Green</div>
+					 
+				    	 <div><input type="text" name="green" id="green" /></div>
+			  
+			      </div>
+				  
+				  <div>
+			  
+			             <div class="labelOfPair">Blue</div>
+					
+				         <div><input type="text" name="blue" id="blue" /></div>
+		    	   	  
+		          </div>   
+			 
+		  
+		       <h3>Enter HSL values for p1</h3>
+		   
+			     <div>
+		      
+		             <div class="labelOfPair">Hue</div> 
+					 
+					 <div><input type="text" name="hue" id="hue" /></div>
+				 	 
+				 </div>	 
+			  
+			     <div>
+			  
+		 	          <div class="labelOfPair">Saturation</div> 
+					
+				  	  <div><input type="text" name="saturation" id="saturation" /></div>
+					
+				 </div>
+				  
+				  
+				 <div>	
+			  
+	  		          <div class="labelOfPair"> Brightness</div> 
+					
+				 	  <div><input type="text" name="lightness" id="lightness" /></div>
+					  
+				 </div>	  
+		  
+		 
+                 <h3>Test It</h3>
+                           		 
+		         <div>
+				 
+				     <div class="labelOfPair">Example Snippets</div>
+					 
+			 
+			            <select id="snippets">
+			 
+			                <option value="default">Choose a snippet</option> 
+                
+                            <option value="snippet-a.html">Snippet A</option> 				 
+			 
+                            <option value="snippet-b.html">Snippet B</option> 
+
+                        </select>  				 
+				 
+		   	    </div>
+		     
+	   </div>
+		
+		
+		
+		<!---block level element that  displays all the color swatches-->
+		
+		<div class="visualSheet">
+		
+		   <div class="tileX" >
+		     
+		     <div>0</div> 
+			 
+			 <div>1</div>
+		   
+		     <div>2</div> 
+		    
+		   </div>
+		
+		   <div id="primaryColors">
+			
+			    <div class="tileY">
+ 			      p
+  				</div> 
+		
+		         <div id="p0Swatch" class="swatch"></div>
+				  
+				  
+				 <div id="p1Swatch" class="swatch"></div>
+				  
+  
+				 <div id="p2Swatch" class="swatch"></div>
+	
+			    
+	  	   </div>
+		
+		
+	  	   <div id="secondaryColors">
+		 
+		        <div class="tileY">
+ 			     s
+  			    </div> 
+				 
+	           <div id="s0Swatch" class="swatch"></div>
+				  
+			   <div id="s1Swatch" class="swatch"></div>
+				 
+			   <div id="s2Swatch" class="swatch"></div>       
+				     
+	
+	     </div>
+		  
+	   </div>
+		 
+
+       <!--Block level element that displays color value information for all the swatches-->
+		
+	    <div id="tileInfo">
+			
+		
+		</div>
+	
+	   <!--Block level element that will contain the injected snippet from an external html file-->
+	  
+	    <div id="theSnippet">
+		
+		
+		</div>
+	
+    </body>
+	
+	
+	<div class="footer">
+	 
+		 ©Killer Color Inc
+		<a class="commonLink" 
+		href="http://www.linkedin.com/profile/edit?goback=&report%2Esuccess=RpbjpOa4KMuANUhXzx7Tlnlk_q8BeNG_hbm3CvT_MvprNw8_amLoUQTi7mpBExGfC1muYQ0BkKffEUGrtGbixvTM" >Jasper Mishra</a>
+		  | <a class="commonLink" href="aboutBoozeLog.php" >About</a>
+		   | <a class="commonLink" href="contactBoozeLog.php" >Contact</a>
+			</div>
+	
+	</div>
+	
+	
+ </html>	
+			  
+  	
+	

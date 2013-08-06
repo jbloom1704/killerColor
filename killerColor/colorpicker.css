@@ -1,0 +1,207 @@
+/*
+
+ Author: Jasper Bloom
+ 
+ Filename:colorpicker.css
+ 
+ Date:16th December, 20111
+
+ The following file applies all the physical styles to the colorpicker.html file.
+ It also holds the basic styles for the snippets from snippet-a.html and snippet-b.html
+ that are applied in colorpicker.html
+ 
+*/
+
+
+
+body
+{
+ color:rgb(105,105,105);
+}
+
+#snippet-a #paragraphs, #snippet-a #sidebar, #snippet-a ul, .colorPickerSheet, .swatch, #snippet-a h1, #snippet-b h1
+{
+ border-style:solid;
+}
+
+
+.colorPickerSheet 
+{
+ float:left;
+ border-color:rgb(190,190,190);
+ width:22em;
+ padding:2em;
+ -webkit-border-radius:2em;
+ -moz-border-radius:2em;
+ -o-border-radius:2em;
+ -ms-border-radius:2em;
+  border-radius:2em;
+ 
+}
+
+.colorPickerSheet >div
+{
+ margin-top:15px;
+}
+
+.labelOfPair
+{
+ float:left;
+ margin-left:15px;
+ width:5em;
+}
+
+
+.visualSheet
+{
+ width:45em;
+ overflow:hidden;
+ margin-left:30em;
+}
+
+#theSnippet
+{
+clear:left; 
+ 
+}
+
+
+#tileInfo
+{
+ margin-left:30em;
+ margin-top:2em;
+}
+
+#primaryColors div, #secondaryColors div, .tileInfoContainer div
+{
+ display:inline-block;
+}
+
+.tileX div
+{
+ display:inline-block;
+ padding-left:6em;
+ padding-right:4em;
+}
+.tileY
+{
+ vertical-align:250%;
+}
+
+.tileInfoContainer
+{
+ margin-bottom:1.5em;
+ padding:0.5em;
+ width:35em;
+ background-color:rgb(238,233,233);
+}
+
+.tilergb, .tilehsl, .tilehex
+{
+ font-family:Helvetica;
+ width:10em;
+}
+
+.tileNumber
+{
+ background-color:snow;
+ padding:0.5em;
+ width:1.2em;
+ margin-right:2em;
+}
+
+
+.swatch
+{
+ width:10em;
+ height:7em;
+ border-width:8px;
+ border-color:rgb(105,105,105);
+}
+
+#snippet-a h1, #snippet-b h1
+{
+ width:35em;
+}
+
+.valuesError
+{
+ color:rgb(178,34,34);
+ font-size:1.3em;
+ width:40em;
+}
+
+#snippet-a #paragraphs
+{
+ float:left;
+ width:41.5em;
+ padding:20px;
+}
+
+#snippet-a #paragraphs p, #snippet-b #paragraphs p
+{
+ width:40em;
+ padding:4px;
+}
+
+
+#snippet-a #sidebar
+{
+width: 8em;
+padding: 10px;
+float: left;
+margin-right: 3em;
+}
+
+#snippet-a ul
+{
+ width: 41.7em;
+ margin-left:12.5em;
+}
+
+#snippet-a ul li
+{
+ display:inline-block;
+ width:4.5em;
+}
+
+
+#snippet-b #sidebar, #snippet-b  #paragraphs, #snippet-b #superhero
+{
+ border-style:solid;
+ -webkit-border-radius:5em;
+ -moz-border-radius:5em;
+ -o-border-radius:5em;
+ -ms-border-radius:5em;
+  border-radius:5em;
+  padding:2em;
+  display:inline-block;
+}
+
+#snippet-b #sidebar, #snippet-b #superhero
+{
+width:8em;
+}
+
+#snippet-b #paragraphs
+{
+ width:40em;
+}
+.footer {
+text-align: center;
+background-color: #F0F0F0;
+bottom: 0;
+overflow: hidden;
+position: fixed;
+width: 100%;
+color: dimGray;
+}
+
+
+
+
+
+
+
+
+

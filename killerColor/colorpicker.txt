@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+     <head>
+     
+       <title>Killer color Inc.</title>
+	 
+        <script="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js" type="text/javascript"></script>
+
+        <link href="colorpicker.css" type="text/css" rel="stylesheet"> 
+  
+        <script src="common.js" type="text/javascript"></script>
+	 
+ 	     <script src="http://info343.ischool.uw.edu/homework/final/color.js" typee="text/javascript"></script>
+		  
+		
+    </head>
+	 
+	 
+	 
+ 	  <body>
+	 
+	     <h1>Killer Color Inc.</h1>
+		  
+		   <h3>Red Green Blue</h3>
+		  
+		  <div class="typeOfCombo">
+		  
+		     <div><input type="text" name="red" id="red" /></div>
+			  
+			  <div><input type="text" name="green" id="green" /></div>
+			  
+			  <div><input type="text" name="blue" id="blue" /></div>
+		    	   	  
+		  </div>  
+		  
+		  <h3>Hue Saturation Brightness</h3>
+		  
+		  <div class="typeOfCombo">
+		  
+		     <div><input type="text" name="hue" id="hue" /></div>
+			  
+			  <div><input type="text" name="saturation" id="saturation" /></div>
+			  
+			  <div><input type="text" name="brightness" id="brightness" /></div>
+		  
+		  </div>
+		   
+		 
+		  
+    </body>
+	
+	
+ </html>	
+			  
+  	
+	
